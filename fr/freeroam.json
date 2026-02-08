@@ -39,5 +39,6 @@
 	"allowed-weapons": "Armes autorisées",
 	"delete-lobby": "Supprimer le lobby",
 	"select-allowed-items": "Sélectionnez les items autorisés",
-	"league-lobby": "Lobby League"
+	"league-lobby": "Lobby League",
+	"freeroam_league_insufficient_playtime": "Vous devez avoir plus de temps de jeu pour rejoindre ce lobby League privé. Les membres premium peuvent contourner cette exigence."
 }
