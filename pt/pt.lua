@@ -615,9 +615,9 @@ local my_language = {
     prestige_info_cmd = [[^3Sistema de prestiges^7
 Atualmente estás no prestige ^4%s^7 e nível ^5%s^7.
  
-Se chegares ao nível máximo (%s) podes escolher fazer prestige e reiniciares o teu XP e voltares ao nível 0.
+Se chegares ao nível máximo (%s) podes escolher fazer prestige, vais reiniciar o teu progresso todo e voltar ao nível 0.
 Obter um novo prestige oferece-te um novo emblema especial e novos perks como melhor loot, novos items, mais dinheiro ou mais espaço no teu inventário.
-^2Se quiseres fazer prestige e voltar ao nível 0 escreve ^1/setprestige^2
+^2Se quiseres fazer prestige e voltar ao nível 0, escreve ^1/setprestige^2
 ]],
     new_prestige = "Desbloqueaste um novo prestige!\n~g~Tens agora %s prestige(s)",
     cant_store_event_veh = "~r~Não podes guardar veículos lendários.",
@@ -762,27 +762,27 @@ Obter um novo prestige oferece-te um novo emblema especial e novos perks como me
     dungeon_charid_required = "~r~Por favor inclui o ID de personagem do teu amigo (canto superior esquerdo do ecrã dele) depois do comando.\nExemplo: /dungeon invite 1234",
 
     poll5_q1 = "Would you accept that our anticheat captures cheaters's entire screen if they're suspected of wallhack or aimbots? (It may shows a part of your desktop if the game is in windowed mode but these captures will not be saved and only used by reliable moderators)",
-    poll5_q1_a1 = "skip - ignore",
-    poll5_q1_a2 = "Yes, I agree to this new method",
-    poll5_q1_a3 = "No, I disagree",
+    poll5_q1_a1 = "Ignorar",
+    poll5_q1_a2 = "Sim, concordo com a nova meta",
+    poll5_q1_a3 = "Não, discordo",
 	
 	-- S4
-	redzone_kill_leader_killed = "The ~r~redzone kill leader~w~ was killed.",
-	redzone_kill_leader_fled = "The ~r~redzone kill leader~w~ fled.",
-	redzone_get_back_kill_leader_before_x = "You are ~r~outside the redzone~w~ get back or you will loose your title in ~r~%s seconds~w~.",
+	redzone_kill_leader_killed = "O ~r~líder da redzone~w~ morreu.",
+	redzone_kill_leader_fled = "O ~r~líder da redzone~w~ fugiu.",
+	redzone_get_back_kill_leader_before_x = "Estás ~r~fora da redzone~w~ volta atrás ou vais perder o teu título em ~r~%s seconds~w~.",
 	redzone_kill_leader_new_xp_step = "~r~Redzone XP Multiplier\n~b~+%s%~w~ bonus",
-	remaining_lives = "Remaining lives",
+	remaining_lives = "Vidas restantes",
 
 	name_tag = "Crew tag",
-	redzone_changed = "Red zones moved to a new position.",
+	redzone_changed = "As redzones mudaram de localização.",
 
 	-- Squad
 	squad_not_leader = "~r~Não és o lider da squad.",
 	squad_kicked_by_x = "Foste ~r~removido~w~ da squad por ~r~%s~w~.",
 	squad_you_kicked_x = "Removeste ~r~%s~w~ da tua squad.",
 	squad_invited_x = "Convidaste ~r~%s~w~ para a tua squad.",
-	squad_invited_you_x = "~r~%s~w~ convidou-te para a sua squad.\nEscreve ~r~/squad join %s~w~ para entrares na squad.",
-	squad_you_set_new_leader = "Meteste ~r~%s~w~ como o novo ~r~líder~w~ da squad.",
+	squad_invited_you_x = "~r~%s~w~ convidou-te para a sua squad.\n~r~/squad join %s~w~ para entrares na squad.",
+	squad_you_set_new_leader = "~r~%s~w~ passou a ~r~líder~w~ da squad.",
 	squad_you_are_new_leader = "~g~És o novo líder da squad.",
 	squad_not_invited = "~r~Não foste convidado para a squad.",
 	squad_joined_squad = "~g~Entraste na squad",
@@ -795,16 +795,16 @@ Obter um novo prestige oferece-te um novo emblema especial e novos perks como me
 	invite_a_player_write_char_id = "Convida um jogador. Escreve o ID de personagem dele. (Character ID)",
 
 	-- Help stuff
-	press_enter_beginner_guide = "Pressiona ~INPUT_ENTER~ para começar o guia inicial.",
+	press_enter_beginner_guide = "Pressiona ~INPUT_ENTER~ para começar o tutorial.",
 	welcome_glife = "Bem-vindo ao ~g~GLife~w~!",
 	you_are_playing_server_x_with_x = "Estás a jogar no servidor ~b~#%s~w~ com ~b~%s jogadores~w~.",
-	start_beginner_guide = "Começa o guia inicial",
+	start_beginner_guide = "Começa o tutorial",
 	play_now = "~g~Jogar agora!",
 	interact_npc_fast_travel = "Interage com o NPC para viajar rapidamente.",
 
 	-- Tutorial
 	tutorial_beginner_end_msg = "~r~Obrigado pelo teu tempo!\n~w~Diverte-te a jogar extinction. Se precisares de ajuda, escreve no chat ou encontra-nos no discord.",
-	tutorial_beginner_start_msg = "~r~Bem-vindo ao GLife Extinction!\n~w~Este curto guia visa a explicar-te como funciona os básicos do jogo.",
+	tutorial_beginner_start_msg = "~r~Bem-vindo ao GLife Extinction!\n~w~Este curto tutorial vai explicar-te como funciona os básicos do jogo.",
 	tutorial_beginner_camera_01 = "~r~~BLIP_557~ ~r~Safezone principal\n~w~Esta é a safezone onde podes comprar e guardar items, mas também podes personalizar o teu equipamento e trocar com outros jogadores.",
 	tutorial_beginner_camera_02 = "~BLIP_568~ ~r~Baús de armazenamento\n~wAqui podes acedar à tua arrumação privada e guardar os teus items.",
     tutorial_beginner_camera_03 = "~BLIP_567~~BLIP_556~~BLIP_658~ ~r~Lojas de NPCs\n~w~Podes comprar e vender os teus itens em muitas lojas, como a de armas, veículos ou equipamentos.",
